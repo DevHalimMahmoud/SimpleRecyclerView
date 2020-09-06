@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Initializing list view with the custom adapter
-        ArrayList<Item> itemList = new ArrayList<Item>();
+        ArrayList<Item> itemList = new ArrayList<>();
 
         ItemArrayAdapter itemArrayAdapter = new ItemArrayAdapter(R.layout.list_item, itemList);
         recyclerView = (RecyclerView) findViewById(R.id.item_list);
